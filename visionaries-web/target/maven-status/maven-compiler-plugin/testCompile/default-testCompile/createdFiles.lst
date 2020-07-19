@@ -1,0 +1,4 @@
+com\bankofapis\model\ApiMockModel.class
+com\bankofapis\web\controller\PispControllerTestIT.class
+com\bankofapis\web\controller\BaseControllerTestIT.class
+com\bankofapis\web\controller\AispControllerTestIT.class

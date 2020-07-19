@@ -1,0 +1,5 @@
+com\bankofapis\remote\service\AispRemoteTest.class
+com\bankofapis\remote\utils\TestHelperUtil.class
+com\bankofapis\remote\service\PispRemoteTest.class
+com\bankofapis\remote\service\TokenRemoteTest.class
+com\bankofapis\remote\config\RootContext.class

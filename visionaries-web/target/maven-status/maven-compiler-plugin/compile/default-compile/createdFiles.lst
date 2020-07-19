@@ -1,0 +1,15 @@
+com\bankofapis\web\controller\AispController.class
+com\bankofapis\web\filter\HttpRequestContext.class
+com\bankofapis\web\service\AispService.class
+com\bankofapis\web\config\RootContext.class
+com\bankofapis\web\service\TokenService.class
+com\bankofapis\web\filter\HttpRequestFilter.class
+com\bankofapis\web\service\CacheManager$1.class
+com\bankofapis\RestClientApplication.class
+com\bankofapis\web\config\SecurityConfig.class
+com\bankofapis\web\service\PispService.class
+com\bankofapis\web\controller\PispController.class
+com\bankofapis\web\config\WebConfig.class
+com\bankofapis\web\GlobalExceptionHandler.class
+com\bankofapis\web\service\CacheManager.class
+com\bankofapis\web\controller\TokenController.class
