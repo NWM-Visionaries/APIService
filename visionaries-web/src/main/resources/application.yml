@@ -15,6 +15,14 @@ client:
   tokenUrl: https://ob.rbs.useinfinite.io/token
   initRunning: true
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" 
+  endpoint:
+    health:
+      show-details: always   
 
 tls:
   alias:
