@@ -1,13 +1,14 @@
 package com.bankofapis.remote.service;
 
-import com.bankofapis.remote.config.ClientConfig;
-import com.bankofapis.remote.util.TokenUtils;
-import com.bankofapis.core.model.token.TokenRequest;
-import com.bankofapis.core.model.token.TokenResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
+
+import com.bankofapis.core.model.token.TokenRequest;
+import com.bankofapis.core.model.token.TokenResponse;
+import com.bankofapis.remote.config.ClientConfig;
+import com.bankofapis.remote.util.TokenUtils;
 
 public class TokenRemote {
 
@@ -28,8 +29,12 @@ public class TokenRemote {
 
             ResponseEntity<TokenResponse> accessTokenResponse = securedRestTemplate.postForEntity(clientConfig.getTokenUrl(),
                     tokenUtil.createTokenObject(requestToken), TokenResponse.class);
-
-            return accessTokenResponse.getBody();
+           
+            TokenResponse t = accessTokenResponse.getBody();
+            
+            
+            return t;
 
     }
+    
 }
