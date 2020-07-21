@@ -1,0 +1,50 @@
+spring:
+log4j:
+  logger:
+    httpclient:
+      wire: DEBUG
+
+client:
+  id: 5jQ0oR7uUmnr_rcAZGrQoLvtV7Y24jFKiUpToLZrmPM=
+  secret: 4xplm_p1CH1QRPvcbAkZ3gR7iI2wRBkvmmgvQw6T0CA=
+  redirectUri: http://localhost:3000/redirecting
+  financialId: 0015800000jfwB4AAI
+  state: ABC
+  authorizationUsername: 123456789012@team.acc.org
+  authorizationAccount: 50000012345601
+  tokenUrl: https://ob.rbs.useinfinite.io/token
+  initRunning: true
+
+server:
+  port : 4000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" 
+  endpoint:
+    health:
+      show-details: always   
+
+tls:
+  alias:
+  enableMatls: false
+  keyStore:
+    location:
+    password:
+  trustStore:
+    location:
+    password:
+
+aisp:
+  target:
+    context: /open-banking/v3.1/aisp
+    baseUri: https://ob.rbs.useinfinite.io
+    audience: https://api.rbs.useinfinite.io/authorize
+
+pisp:
+  target:
+    context: /open-banking/v3.1/pisp
+    baseUri: https://ob.rbs.useinfinite.io
+    audience: https://api.rbs.useinfinite.io/authorize

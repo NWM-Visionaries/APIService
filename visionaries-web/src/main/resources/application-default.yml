@@ -7,7 +7,7 @@ log4j:
 client:
   id: 4cKOjU3i-KvIPNyCV3dNUWnCMO6VvE8TNbHrIwZelpA=
   secret: 1bzcIIXYUbr5K3RBpzFjwCJRjG5LFf5ydW4HOG8zBaY=
-  redirectUri: http://2da7d19dcdfd.ngrok.io/redirecting
+  redirectUri: http://c69cee9e392d.ngrok.io/redirecting
   financialId: 0015800000jfwB4AAI
   state: ABC
   authorizationUsername: 123456789012@team.acc.org
